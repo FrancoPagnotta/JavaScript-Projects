@@ -43,8 +43,8 @@ img {
 	position: sticky;
 	top: 0;
 	padding: 1rem;
-	background: var(--primary-color);
-	color: var(--secondary-color);
+	background: var(--secondary-color);
+	color: var(--primary-color);
 }
 
 .header h1 {
@@ -128,5 +128,75 @@ img {
 	justify-content: center;
 	background: var(--primary-color);
 }
+
+
+
+/* DIGITAL CLOCK */
+#section1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.container {
+	font-family: 'Oswald', sans-serif;
+	background: #FFFFFF;
+	box-shadow: 0px 11px 21px 0px rgba(128,140,155,0.75);
+	height: 500px;
+	width: 900px;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 10px;
+}
+
+.container-title {
+	color: #e7414ca4;
+	font-size: 40px;
+	letter-spacing: 3px;
+	margin: 0;
+	font-weight: var(--font-weight-bold);
+}
+
+.clock {
+	background: #E7414C;
+	box-shadow: 0px 11px 21px 0px rgba(128,140,155,0.75);
+	height: 300px;
+	width: 700px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	border-radius: 10px;
+	color: #FFFFFF;
+}
+
+.clock-time {
+	width: inherit;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+	font-size: 40px;
+}
+
+.time-hour,
+.time-minute,
+.time-second {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 70px;
+	font-weight: var(--font-weight-medium);
+	margin: 0 20px;
+	text-align: center;
+	width: 110px;
+	height: 150px;
+	border-radius: 10px;
+	background: #E7414C;
+	box-shadow: inset 5px 5px 10px #cb3943, inset -5px -5px 10px #ff4955;
+}
+
 
 

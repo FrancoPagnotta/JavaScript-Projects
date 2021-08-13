@@ -200,3 +200,29 @@ img {
 
 
 
+/* KEYBOARD EVENTS */
+#section2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.stage {
+	display: flex;
+	box-shadow: 0px 11px 21px 0px rgba(128,140,155,0.75);
+	height: 31.25rem;
+	width: 56.25rem;
+	border-radius: 10px;
+	background-color: #212529;
+	opacity: 1;
+	background-image:  radial-gradient(#ffffff 2px, transparent 2px), radial-gradient(#ffffff 2px, #212529 2px);
+	background-size: 80px 80px;
+	background-position: 0 0,40px 40px;
+}
+
+.rocket {
+	margin: auto;
+	font-size: 3.125rem;
+	color:#FFFF;
+}
